@@ -1,0 +1,21 @@
+.Header {
+    background-color: transparent;
+    margin: 0;
+}
+
+.Header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vh;
+}
+
+.Header__button {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFDFD;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
