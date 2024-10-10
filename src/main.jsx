@@ -6,7 +6,7 @@ import './main.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='/LostAndFound/'>
+    <BrowserRouter basename='/lost-and-found/'>
       <App />
     </BrowserRouter>
   </StrictMode>
