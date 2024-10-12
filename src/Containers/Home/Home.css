@@ -14,7 +14,7 @@
 
 .Home__banner {
     width: 100%;
-    height: 450px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@
 .Home__banner-content {
     user-select: none;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 200px;
     z-index: 1;
     width: 85%;
     display: flex;
@@ -61,7 +61,7 @@
 
 .Home__banner-background {
     user-select: none;
-    background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
+    background-image: linear-gradient(0deg, rgb(53, 79, 82, 0.8), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -83,17 +83,17 @@
 }
 
 .Home__all-location {
-    width: 92.5vw;
+    width: inherit;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    height: 42.5vh;
+    justify-content: space-around;
+    height: 380px;
     gap: 2vw;
 }
 
 .Home__time-location {
-    width: 300px;
+    width: 360px;
     height: inherit;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,6 @@
 }
 
 .Home__date--container {
-    width: inherit;
     font-family: DM Sans;
     color: var(--font-white);
     background-image: linear-gradient(45deg, #1D5C63, #52796F);
@@ -122,7 +121,6 @@
 }
 
 .Home__location-current {
-    width: inherit;
     height: 65%;
     background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
     background-position: center;
@@ -152,7 +150,7 @@
 
 .Home__location-suggestion--container {
     height: inherit;
-    width: 100%;
+    width: 1300px;
     display: flex;
     flex-direction: row;
 }
@@ -162,13 +160,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     padding: 2vh 3vh;
     justify-content: flex-end;
     font-family: DM Sans;
     color: var(--font-white);
+    user-select: none;
+    width: 100%;
 }
 
 #Home__location-suggestion--left {
