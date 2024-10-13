@@ -39,23 +39,23 @@
     gap: 60px;
 }
 
-.Home__banner-title {
+.Home__banner--title {
     font-family: DM Sans;
     font-weight: 500;
     color: var(--font-white);
     font-size: 2rem;
 }
 
-.Home__banner-desc {
-    font-family: DM Sans;
-    font-weight: 900;
-    color: var(--font-white);
-    font-size: 4rem;
+.Home__banner--desc {
     display: flex;
     flex-direction: column;
 }
 
 .Home__banner-desc--text {
+    font-family: DM Sans;
+    font-weight: 900;
+    color: var(--font-white);
+    font-size: 4rem;
     margin: -5px 0;
 }
 
@@ -88,12 +88,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 380px;
+    height: 360px;
     gap: 2vw;
 }
 
 .Home__time-location {
-    width: 360px;
+    width: 350px;
     height: inherit;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@
 
 .Home__location-suggestion--container {
     height: inherit;
-    width: 1300px;
+    width: 1360px;
     display: flex;
     flex-direction: row;
 }
@@ -259,4 +259,55 @@
     font-weight: 700;
     font-size: 1.7rem;
     width: inherit;
+}
+
+/* Tablets and small laptops */
+@media screen and (max-width: 1200px) {
+
+    .Home__banner {
+        height: 425px;
+    }
+
+    .Home__banner-content {
+        gap: 37.5px;
+        margin-top: 180px;
+    }
+
+    .Home__banner-desc--text {
+        font-size: 3.6rem;
+    }
+
+    .Home__all-location {
+        height: 265px;
+    }
+
+    .Home__day--text {
+        font-size: 1rem;
+    }
+    
+    .Home__date--text {
+        font-size: 1.35rem;
+        font-weight: 800;
+    }
+
+    .Home__location-current--title {
+        font-size: 1rem;
+    }
+    
+    .Home__location-current--desc {
+        font-size: 1.35rem;
+        margin: -4px 0;
+        font-weight: 700;
+    }
+
+    .Home__location-suggestion--subtitle {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .Home__location-suggestion--title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
 }

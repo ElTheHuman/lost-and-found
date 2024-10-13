@@ -4,10 +4,6 @@ import './Home.css';
 
 const Home = () => {
 
-    const tes = () => {
-        console.log("anjay");
-    }
-
     return (
         <div className="Home">
             <div className="Home__container">
@@ -16,10 +12,10 @@ const Home = () => {
                         <Header/>
                     </div>
                     <div className="Home__banner-content">
-                        <div className="Home__banner-title">
+                        <div className="Home__banner--title">
                             Halo, John Doe!
                         </div>
-                        <div className="Home__banner-desc">
+                        <div className="Home__banner--desc">
                             <p className="Home__banner-desc--text">BINUS University</p>
                             <p className="Home__banner-desc--text">Lost & Found Department</p>
                         </div>
