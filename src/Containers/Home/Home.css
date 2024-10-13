@@ -106,7 +106,7 @@
     font-family: DM Sans;
     color: var(--font-white);
     background-image: linear-gradient(45deg, #1D5C63, #52796F);
-    border-radius: 2vh;
+    border-radius: 25px;
     padding: 5% 7.5%;
     user-select: none;
 }
@@ -127,7 +127,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border-radius: 2vh;
+    border-radius: 25px;
     padding: 7.5%;
     display: flex;
     flex-direction: column;
@@ -172,11 +172,11 @@
 }
 
 #Home__location-suggestion--left {
-    border-radius: 2vh 0 0 2vh;
+    border-radius: 25px 0 0 25px;
 }
 
 #Home__location-suggestion--right {
-    border-radius: 0 2vh 2vh 0;
+    border-radius: 0 25px 25px 0;
 }
 
 .Home__location-suggestion--subtitle {
@@ -376,6 +376,20 @@
 
     .Home__banner-desc--text {
         font-size: 2.6rem;
+    }
+
+    .Home__location-suggestion--container {
+        height: 150px;
+    }
+
+    .Home__location-suggestion--subtitle {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    .Home__location-suggestion--title {
+        font-size: 1.25rem;
+        font-weight: 700;
     }
 
 }
