@@ -17,7 +17,7 @@ const Home = () => {
                         </div>
                         <div className="Home__banner--desc">
                             <p className="Home__banner-desc--text">BINUS University</p>
-                            <p className="Home__banner-desc--text">Lost & Found Department</p>
+                            <p className="Home__banner-desc--text">Lost & Bid Department</p>
                         </div>
                     </div>
                     <div className="Home__banner-background">
@@ -37,8 +37,10 @@ const Home = () => {
                             </div>
                             <div className="Home__location-current">
                                 <p className="Home__location-current--title">Now you're here</p>
-                                <p className="Home__location-current--desc">BINUS</p>
-                                <p className="Home__location-current--desc">Greater Jakarta</p>
+                                <div className="Home__location-desc--container">
+                                    <p className="Home__location-current--desc">BINUS</p>
+                                    <p className="Home__location-current--desc">Greater Jakarta</p>
+                                </div>
                             </div>
                         </div>
                         <div className="Home__location-suggestion--container">
