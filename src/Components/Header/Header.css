@@ -21,7 +21,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Header {
+        margin: 0 10px;
+    }
     .Header__container {
-        gap: 6vw;
+        gap: 10px;
+        justify-content: space-evenly;
+        width: 100%;
     }
 }
