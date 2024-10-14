@@ -89,12 +89,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 360px;
+    height: 340px;
     gap: 2vw;
 }
 
 .Home__time-location {
-    width: 350px;
+    width: 340px;
     height: inherit;
     display: flex;
     flex-direction: column;
@@ -112,12 +112,12 @@
 }
 
 .Home__day--text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
 .Home__date--text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
 }
 
@@ -139,19 +139,19 @@
 
 .Home__location-current--title {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0 0 10px 0;
 }
 
 .Home__location-current--desc {
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: -7px 0;
 }
 
 .Home__location-suggestion--container {
     height: inherit;
-    width: 1360px;
+    width: 1300px;
     display: flex;
     flex-direction: row;
 }
