@@ -65,100 +65,118 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="Home__all-content">
-                    <div className="Home__title">
+                <div className="Home__found-content--container">
+                    <div className="Home__found-title">
                         Found Update
                     </div>
-                    <div className="Home__content">
-                        <div className="Home__item">
+                    <div className="Home__found-content">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
                                     Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
-
-                        <div className="Home__item">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
                                     Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
-
-                        <div className="Home__item">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
                                     Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
-
-                        <div className="Home__item">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
                                     Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
-
-                        <div className="Home__item">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
+                                    Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
-
-                        <div className="Home__item">
+                        <div className="Home__found-item">
                             {/* Dummy image first */}
-                            <div className="Home__item-image--container">
-                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__item-image"/>
+                            <div className="Home__found-image--container">
+                                <img src="https://m.media-amazon.com/images/I/612BnAQGDyL.jpg" alt="" className="Home__found-image"/>
                             </div>
-                            <div className="Home__item-text--container">
-                                <div className="Home__item-status">
+                            <div className="Home__found-text--container">
+                                <div className="Home__found-status">
+                                    Newly found!
                                 </div>
-                                <div className="Home__item-title">
+                                <div className="Home__found-item--title">
                                     Insert Item Name Here!
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className="Home__news">
+                    <div className="Home__news-title">
+                        Berita Kehilangan
+                    </div>
+                    <div className="Home__news-content">
+                        <div className="Home__news--main">
+
+                        </div>
+                    </div>
+                </div>
+
+                <footer className="Home__footer">
+                    <div className="Home__footer--title">
+                        LostBid
+                    </div>
+                    <div className="Home__footer--separator"></div>
+                    <div className="Home__footer--desc">
+                        Hak Cipta Dilindungi
+                    </div>
+                </footer>
             </div>
         </div>
     )

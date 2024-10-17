@@ -190,22 +190,22 @@
     font-weight: 900;
 }
 
-.Home__all-content {
+.Home__found-content--container {
     display: flex;
     flex-direction: column;
     user-select: none;
     width: 95vw;
 }
 
-.Home__title {
-    margin: 0 1vh;
+.Home__found-title {
+    margin: 1vh;
     font-family: Poppins;
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--font-black);
 }
 
-.Home__content {
+.Home__found-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -217,7 +217,7 @@
     height: 400px;
 }
 
-.Home__item {
+.Home__found-item {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -227,7 +227,7 @@
     cursor: pointer;
 }
 
-.Home__item-image--container {
+.Home__found-image--container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,18 +239,18 @@
     border-radius: 20px;
 }
 
-.Home__item-image {
+.Home__found-image {
     width: inherit;
     height: inherit;
     pointer-events: none;
 }
 
-.Home__item-text--container {
+.Home__found-text--container {
     width: 95%;
     margin: 1vh;
 }
 
-.Home__item-status {
+.Home__found-status {
     font-family: var(--detail-font);
     color: var(--detail-color);
     font-weight: 500;
@@ -258,12 +258,59 @@
     height: 1.5rem;
 }
 
-.Home__item-title {
+.Home__found-item--title {
     font-family: var(--desc-font);
     color: var(--desc-color);
     font-weight: 700;
     font-size: 1.7rem;
     width: inherit;
+}
+
+.Home__news {
+    margin: 2vh 0;
+    height: 600px;
+    background-color: #E9E9E9;
+    width: clamp(200px, 95vw, 1800px);
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 25px;
+}
+
+.Home__news-title {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #354F52;
+    user-select: none;
+}
+
+.Home__footer {
+    width: 100vw;
+    height: 90px;
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    user-select: none;
+}
+
+.Home__footer--title {
+    font-weight: 600;
+    color: #404040;
+}
+
+.Home__footer--separator {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.Home__footer--desc {
+    color: #767676;
+    font-weight: 600;
 }
 
 /* small laptops */
@@ -353,7 +400,7 @@
 
     .Home__location-suggestion--container {
         height: inherit;
-        width: 92.5%;
+        width: clamp(525px, 80vw, 720px);
         display: flex;
         flex-direction: row;
     }
