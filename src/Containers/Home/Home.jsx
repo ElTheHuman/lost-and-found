@@ -1,4 +1,5 @@
 import React from "react";
+import { FaExclamation } from 'react-icons/fa';
 import Header from "../../Components/Header/Header";
 import './Home.css';
 
@@ -158,18 +159,21 @@ const Home = () => {
                 </div>
 
                 <div className="Home__news">
-                    <div className="Home__news-title">
+                    <div className="Home__news--title">
                         Berita Kehilangan
                     </div>
                     <div className="Home__news-content">
-                        <div className="Home__news--main">
-
+                        <div className="Home__news-main">
+                            <div className="Home__news-header" id="Home__news-header--main">
+                                <p className="Home__news-exclamation" id="Home__news-exclamation--main"><FaExclamation /></p>
+                                <p className="Home__news-title" id="Home__news-title--main">DICARI</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <footer className="Home__footer">
-                    <div className="Home__footer--title">
+                    <div className="Home__footer--exclamation">
                         LostBid
                     </div>
                     <div className="Home__footer--separator"></div>
