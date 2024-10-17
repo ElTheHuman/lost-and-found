@@ -94,62 +94,6 @@
     gap: 2vw;
 }
 
-.Home__time-location {
-    width: max(calc(600px - 15vw), 300px);
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 2vh;
-}
-
-.Home__date--container {
-    font-family: DM Sans;
-    color: var(--font-white);
-    background-image: linear-gradient(45deg, #1D5C63, #52796F);
-    border-radius: 25px;
-    padding: 5% 7.5%;
-    user-select: none;
-}
-
-.Home__day--text {
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.Home__date--text {
-    font-size: 1.8rem;
-    font-weight: 900;
-}
-
-.Home__location-current {
-    height: 65%;
-    background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 25px;
-    padding: 7.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-family: DM Sans;
-    color: var(--font-white);
-    user-select: none;
-}
-
-.Home__location-current--title {
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin: 0 0 10px 0;
-}
-
-.Home__location-current--desc {
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin: -7px 0;
-}
-
 .Home__location-suggestion--container {
     height: inherit;
     width: 1300px;
@@ -379,25 +323,6 @@
         font-size: 3.5rem;
     }
 
-    .Home__day--text {
-        font-size: 1rem;
-    }
-    
-    .Home__date--text {
-        font-size: 1.35rem;
-        font-weight: 800;
-    }
-
-    .Home__location-current--title {
-        font-size: 1rem;
-    }
-    
-    .Home__location-current--desc {
-        font-size: 1.35rem;
-        margin: -4px 0;
-        font-weight: 700;
-    }
-
     .Home__location-suggestion--subtitle {
         font-size: 1rem;
         font-weight: 600;
@@ -421,27 +346,6 @@
         height: 320px;
         gap: 3vh;
         flex-direction: column;
-    }
-
-    .Home__time-location {
-        width: inherit;
-        height: 120px;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-
-    .Home__date--container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        padding: 2.5%;
-    }
-
-    .Home__location-current {
-        height: auto;
-        justify-content: space-between;
-        padding: 3%;
     }
 
     .Home__location-suggestion--container {
