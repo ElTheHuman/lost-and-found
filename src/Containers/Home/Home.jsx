@@ -1,6 +1,7 @@
 import React from "react";
 import { FaExclamation } from 'react-icons/fa';
 import Header from "../../Components/Header/Header";
+import { TimeLocation } from "../../Components";
 import './Home.css';
 
 const Home = () => {
@@ -27,23 +28,7 @@ const Home = () => {
                 </div>
                 <div className="Home__all-location--container">
                     <div className="Home__all-location">
-                        <div className="Home__time-location">
-                            <div className="Home__date--container">
-                                <div className="Home__day">
-                                    <p className="Home__day--text">Jumat</p>
-                                </div>
-                                <div className="Home__date">
-                                    <p className="Home__date--text">11 Oktober 2024</p>
-                                </div>
-                            </div>
-                            <div className="Home__location-current">
-                                <p className="Home__location-current--title">Now you're here</p>
-                                <div className="Home__location-desc--container">
-                                    <p className="Home__location-current--desc">BINUS</p>
-                                    <p className="Home__location-current--desc">Greater Jakarta</p>
-                                </div>
-                            </div>
-                        </div>
+                        <TimeLocation />
                         <div className="Home__location-suggestion--container">
                             <div className="Home__location-suggestion" id="Home__location-suggestion--left">
                                 <p className="Home__location-suggestion--subtitle">Lost & Bid</p>
