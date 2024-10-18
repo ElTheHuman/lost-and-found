@@ -1,4 +1,4 @@
-.TimeLocation {
+.ShortTimeLocation {
     width: max(calc(600px - 15vw), 300px);
     height: inherit;
     display: flex;
@@ -7,7 +7,7 @@
     gap: 2vh;
 }
 
-.TimeLocation__date--container {
+.ShortTimeLocation__date--container {
     font-family: DM Sans;
     color: var(--font-white);
     background-image: linear-gradient(45deg, #1D5C63, #52796F);
@@ -16,59 +16,31 @@
     user-select: none;
 }
 
-.TimeLocation__day--text {
+.ShortTimeLocation__day--text {
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-.TimeLocation__date--text {
+.ShortTimeLocation__date--text {
     font-size: 1.8rem;
     font-weight: 900;
-}
-
-.TimeLocation__location-current {
-    height: 65%;
-    background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 25px;
-    padding: 7.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-family: DM Sans;
-    color: var(--font-white);
-    user-select: none;
-}
-
-.TimeLocation__location-current--title {
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin: 0 0 10px 0;
-}
-
-.TimeLocation__location-current--desc {
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin: -7px 0;
 }
 
 @media screen and (max-width: 1200px) {
-    .TimeLocation__day--text {
+    .ShortTimeLocation__day--text {
         font-size: 1rem;
     }
     
-    .TimeLocation__date--text {
+    .ShortTimeLocation__date--text {
         font-size: 1.35rem;
         font-weight: 800;
     }
 
-    .TimeLocation__location-current--title {
+    .ShortTimeLocation__location-current--title {
         font-size: 1rem;
     }
     
-    .TimeLocation__location-current--desc {
+    .ShortTimeLocation__location-current--desc {
         font-size: 1.35rem;
         margin: -4px 0;
         font-weight: 700;
@@ -77,14 +49,14 @@
 
 @media screen and (max-width: 992px) {
 
-    .TimeLocation {
+    .ShortTimeLocation {
         width: inherit;
         height: 120px;
         justify-content: space-evenly;
         flex-direction: row;
     }
 
-    .TimeLocation__date--container {
+    .ShortTimeLocation__date--container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -92,7 +64,7 @@
         padding: 2.5%;
     }
 
-    .TimeLocation__location-current {
+    .ShortTimeLocation__location-current {
         height: auto;
         justify-content: space-between;
         padding: 3%;

@@ -1,0 +1,82 @@
+.LocationSuggestion--container {
+    height: inherit;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.LocationSuggestion {
+    background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.75%;
+    justify-content: flex-end;
+    font-family: DM Sans;
+    color: var(--font-white);
+    user-select: none;
+    width: 100%;
+}
+
+#LocationSuggestion__left {
+    border-radius: 25px 0 0 25px;
+}
+
+#LocationSuggestion__right {
+    border-radius: 0 25px 25px 0;
+}
+
+.LocationSuggestion__subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.LocationSuggestion__title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .LocationSuggestion__subtitle {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .LocationSuggestion__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .LocationSuggestion--container {
+        height: inherit;
+        width: clamp(525px, 80vw, 720px);
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .LocationSuggestion--container {
+        height: 150px;
+    }
+
+    .LocationSuggestion__subtitle {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    .LocationSuggestion__title {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+}

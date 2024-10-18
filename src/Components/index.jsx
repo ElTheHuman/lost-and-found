@@ -1,2 +1,5 @@
 export { default as Header } from './Header/Header.jsx'
-export { default as TimeLocation } from './TimeLocation/TimeLocation.jsx'
+export { default as ShortTimeLocation } from './ShortTimeLocation/ShortTimeLocation.jsx'
+export { default as CurrentLocation } from './CurrentLocation/CurrentLocation.jsx'
+export { default as LocationSuggestion } from './LocationSuggestion/LocationSuggestion.jsx'
+export { default as Footer } from './Footer/Footer.jsx'

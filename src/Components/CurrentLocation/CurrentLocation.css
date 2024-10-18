@@ -1,0 +1,50 @@
+.CurrentLocation {
+    height: 65%;
+    background-image: radial-gradient(circle, rgb(53, 79, 82, 0.6), rgb(82, 121, 111, 0.6)), url("https://binus.ac.id/bekasi/wp-content/uploads/2022/07/BINUS-@Bekasi-gedung.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    padding: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: DM Sans;
+    color: var(--font-white);
+    user-select: none;
+}
+
+.CurrentLocation-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0 0 10px 0;
+}
+
+.CurrentLocation-desc {
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin: -7px 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .CurrentLocation-title {
+        font-size: 1rem;
+    }
+    
+    .CurrentLocation-desc {
+        font-size: 1.35rem;
+        margin: -4px 0;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .CurrentLocation {
+        height: auto;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    
+}

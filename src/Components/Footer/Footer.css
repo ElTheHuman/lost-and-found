@@ -1,0 +1,27 @@
+.Footer {
+    width: 100vw;
+    height: 90px;
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    user-select: none;
+}
+
+.Footer__title {
+    font-weight: 600;
+    color: #404040;
+}
+
+.Footer__separator {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.Footer__desc {
+    color: #767676;
+    font-weight: 600;
+}
