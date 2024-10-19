@@ -1,6 +1,6 @@
 .HomeNews {
-    margin: 2vh 0;
-    height: 600px;
+    margin: 40px 0 60px 0;
+    height: 725px;
     background-color: #FFFFFF;
     width: clamp(200px, 95vw, 1800px);
     display: flex;
@@ -9,56 +9,156 @@
     padding: 20px;
     box-shadow: 0px 4px 20px 0px #00000026;
     border-radius: 25px;
+    gap: 10px;
 }
 
 .HomeNews__title {
     margin: 20px;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #354F52;
     user-select: none;
 }
 
 .HomeNews__content {
     align-self: center;
+    display: flex;
+    gap: 50px;
     width: 95%;
     height: 85%;
-    /* background-color: blue; */
 }
 
 .HomeNews__main {
     width: 50%;
     height: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
 }
 
 .HomeNews__header {
-    margin: 20px;
     width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.HomeNews__header-exclamation {
+    border-radius: 100%;
+    background-image: linear-gradient(45deg, rgb(78,116,120), rgb(100,149,154));
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: var(--font-white);
+}
+
+.HomeNews__header-title {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #354F52;
+    user-select: none;
+}
+
+.HomeNews__header--main {
+    gap: 20px;
+}
+
+.HomeNews__header-exclamation--main {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+}
+
+.HomeNews__header-title--main {
+    font-size: 1.8rem;
+}
+
+.HomeNews__header--separator {
+    width: 100%;
+    background-color: #CDC9C9;
+    border: none;
+    height: 2px;
+    margin: 10px 0;
+}
+
+.HomeNews__main-content {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    gap: 20px;
+}
+
+.HomeNews__content-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.HomeNews__content-title--main {
+    font-size: 2rem;
+} 
+
+.HomeNews__feature-list {
+    margin: 0 30px;
+}
+
+.HomeNews__warning {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #A24848;
+    margin-top: auto;
+}
+
+.HomeNews__time-container {
+    align-self: flex-end;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-.HomeNews__exclamation {
-    border-radius: 100%;
-    background-image: linear-gradient(45deg, rgb(78,116,120), rgb(100,149,154));
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    font-size: 1.4rem;
-    color: var(--font-white);
+.HomeNews__app-name {
+    font-weight: 600;
+    color: var(--font-black);
 }
 
-.HomeNews__title {
-    font-size: 1.8rem;
-    font-weight: 900;
+.HomeNews__separator {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.HomeNews__time {
+    color: #767676;
+}
+
+.HomeNews__side-container {
+    width: 50%;
+    height: 100%;
+}
+
+.HomeNews__side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.HomeNews__side-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.HomeNews__detail {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #52796F;
+    font-weight: 600;
 }

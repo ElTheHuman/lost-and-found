@@ -1,9 +1,10 @@
 import React from "react";
+import './Home.css';
+import { Footer, LocationSuggestion, ShortTimeLocation } from "../../Components";
 import HomeBanner from "./HomeBanner/HomeBanner";
 import HomeFoundUpdate from "./HomeFoundUpdate/HomeFoundUpdate";
 import HomeNews from "./HomeNews/HomeNews";
-import { Footer, LocationSuggestion, ShortTimeLocation } from "../../Components";
-import './Home.css';
+import HomeTermsAndConditions from "./HomeTermsAndConditions/HomeTermsAndConditions";
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
 
                 <HomeFoundUpdate />
                 <HomeNews />
+                <HomeTermsAndConditions />
                 <Footer />
 
             </div>

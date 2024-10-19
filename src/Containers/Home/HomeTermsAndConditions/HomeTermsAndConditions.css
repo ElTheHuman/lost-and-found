@@ -1,0 +1,39 @@
+.HomeTermsAndConditions {
+    width: clamp(800px, 110vw, 1980px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.HomeTermsAndConditions__title {
+    font-family: DM Sans;
+    font-size: 3rem;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(0deg, #1D5C63, #52796F);
+    background-clip: text;
+    user-select: none;
+}
+
+.HomeTermsAndConditions__content {
+    border-radius: 20px;
+    width: inherit;
+    height: 400px;
+    background: linear-gradient(90deg, #1D5C63, #52796F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeTermsAndConditions__tnc-list {
+    width: 80%;
+    font-size: 1.2rem;  
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
