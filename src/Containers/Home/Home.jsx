@@ -14,7 +14,9 @@ const Home = () => {
                 <HomeBanner />
                 <div className="Home__all-location--container">
                     <div className="Home__all-location">
-                        <ShortTimeLocation />
+                        <div className="Home__time-location--container">
+                            <ShortTimeLocation />
+                        </div>
                         <LocationSuggestion />
                     </div>
                 </div>

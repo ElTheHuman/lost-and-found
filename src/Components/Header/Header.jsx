@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css';
 
 const Header = () => {
@@ -6,16 +7,16 @@ const Header = () => {
         <div className="Header">
             <div className="Header__container">
                 <button className="Header__button">
-                    Beranda
+                    <Link to={'/'} className="Header__text">Beranda</Link>
                 </button>
                 <button className="Header__button">
-                    Berita Kehilangan
+                    <Link to={'/lost-news'} className="Header__text">Berita Kehilangan</Link>
                 </button>
                 <button className="Header__button">
-                    Klaim Kepemilikan
+                    <Link className="Header__text">Klaim Kepemilikan</Link>
                 </button>
                 <button className="Header__button">
-                    Profil Akun
+                    <Link className="Header__text">Profil Akun</Link>
                 </button>
             </div>
         </div>

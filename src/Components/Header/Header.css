@@ -10,14 +10,23 @@
     gap: 8vh;
 }
 
-.Header__button {
+.Header__button {    
+    border: none;
+    background-color: transparent;
+}
+
+.Header__text {
     font-family: Poppins;
     font-weight: 600;
     font-size: 1rem;
-    color: #FFFDFD;
-    border: none;
-    background-color: transparent;
     cursor: pointer;
+    color: #FFFDFD;
+    text-decoration: none;
+    transition: 0.15s ease-in-out;
+}
+
+.Header__text:hover {
+    color: lightgray;
 }
 
 @media screen and (max-width: 768px) {

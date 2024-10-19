@@ -3,3 +3,4 @@ export { default as ShortTimeLocation } from './ShortTimeLocation/ShortTimeLocat
 export { default as CurrentLocation } from './CurrentLocation/CurrentLocation.jsx'
 export { default as LocationSuggestion } from './LocationSuggestion/LocationSuggestion.jsx'
 export { default as Footer } from './Footer/Footer.jsx'
+export { default as SideNavBar } from './SideNavBar/SideNavBar.jsx'

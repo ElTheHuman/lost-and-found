@@ -29,8 +29,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: clamp(130px, 20vw, 340px);
     gap: 2vw;
+}
+
+.Home__time-location--container {
+    width: max(calc(600px - 15vw), 300px);
 }
 
 /* small laptops */

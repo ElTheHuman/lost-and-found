@@ -1,5 +1,5 @@
 .LocationSuggestion--container {
-    height: inherit;
+    height: clamp(130px, 20vw, 340px);
     width: 1300px;
     display: flex;
     flex-direction: row;

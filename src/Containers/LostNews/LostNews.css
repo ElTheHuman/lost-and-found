@@ -1,0 +1,60 @@
+.LostNews {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+.LostNews__sidebar {
+    width: 430px;
+    height: 100vh;
+    border-right: 1px solid #CDC9C9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.LostNews__sidebar-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.LostNews__all-content {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.LostNews__title {
+    align-self: flex-start;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.LostNews__content {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.LostNews__image-container {
+    width: 320px;
+    height: 300px;
+}
+.LostNews__image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
