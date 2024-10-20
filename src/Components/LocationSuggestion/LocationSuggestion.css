@@ -1,6 +1,5 @@
 .LocationSuggestion--container {
-    height: clamp(130px, 20vw, 340px);
-    width: 1300px;
+    height: clamp(130px, 20vw, 380px);
     display: flex;
     flex-direction: row;
 }
@@ -55,7 +54,6 @@
 @media screen and (max-width: 992px) {
 
     .LocationSuggestion--container {
-        height: inherit;
         width: clamp(525px, 80vw, 720px);
         display: flex;
         flex-direction: row;

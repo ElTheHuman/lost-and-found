@@ -1,5 +1,5 @@
 .ShortTimeLocation {
-    height: clamp(130px, 20vw, 340px);
+    height: clamp(130px, 20vw, 380px);
     width: 100%;
     display: flex;
     flex-direction: column;

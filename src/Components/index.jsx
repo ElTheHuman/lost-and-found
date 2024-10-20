@@ -5,3 +5,4 @@ export { default as LocationSuggestion } from './LocationSuggestion/LocationSugg
 export { default as Footer } from './Footer/Footer.jsx'
 export { default as SideNavBar } from './SideNavBar/SideNavBar.jsx'
 export { default as LongTimeLocation } from './LongTimeLocation/LongTimeLocation.jsx'
+export { default as NotificationDot } from './NotificationDot/NotificationDot.jsx'

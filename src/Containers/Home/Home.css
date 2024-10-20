@@ -20,7 +20,6 @@
     justify-content: center;
     margin-bottom: 2vh;
     padding: 3%;
-    height: fit-content;
 }
 
 .Home__all-location {
@@ -36,47 +35,14 @@
     width: max(calc(600px - 15vw), 300px);
 }
 
-/* small laptops */
-@media screen and (max-width: 1200px) {
-
-    .Home__banner {
-        height: 425px;
-    }
-
-    .Home__banner-content {
-        gap: 37.5px;
-        margin-top: 180px;
-    }
-
-    .Home__banner--title {
-        font-size: 1.8rem;
-    }
-
-    .Home__banner-desc--text {
-        font-size: 3.5rem;
-    }
-
-    .Home__location-suggestion--subtitle {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-    
-    .Home__location-suggestion--title {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
+.Home__location-suggestion--container {
+    width: 1300px;
 }
 
 /* Landscape tablets */
 @media screen and (max-width: 992px) {
 
-    .Home__header {
-        margin: 50px;
-    }
-
     .Home__all-location {
-        height: 320px;
         gap: 3vh;
         flex-direction: column;
     }
@@ -92,38 +58,8 @@
 
 @media screen and (max-width: 768px) {
 
-    .Home__header {
-        margin: 40px;
-    }
-
-    .Home__banner {
-        height: 360px;
-    }
-
-    .Home__banner-content {
-        margin-top: 160px;
-    }
-
-    .Home__banner--title {
-        font-size: 1.4rem;
-    }
-
-    .Home__banner-desc--text {
-        font-size: 2.6rem;
-    }
-
     .Home__location-suggestion--container {
         height: 150px;
-    }
-
-    .Home__location-suggestion--subtitle {
-        font-size: 0.8rem;
-        font-weight: 600;
-    }
-    
-    .Home__location-suggestion--title {
-        font-size: 1.25rem;
-        font-weight: 700;
     }
 
 }

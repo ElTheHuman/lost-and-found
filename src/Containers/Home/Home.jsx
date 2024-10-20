@@ -17,7 +17,9 @@ const Home = () => {
                         <div className="Home__time-location--container">
                             <ShortTimeLocation />
                         </div>
-                        <LocationSuggestion />
+                        <div className="Home__location-suggestion--container">
+                            <LocationSuggestion />
+                        </div>
                     </div>
                 </div>
 
