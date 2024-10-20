@@ -95,7 +95,7 @@
 }
 
 .HomeNews__content-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -161,4 +161,20 @@
     font-size: 1.2rem;
     color: #52796F;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .HomeNews__content-title {
+        font-size: 1.3rem;
+    }
+
+    .HomeNews__content-title--main {
+        font-size: 1.7rem;
+    }
+
+    .HomeNews__warning {
+        font-size: 1.2rem;
+    }
+
 }

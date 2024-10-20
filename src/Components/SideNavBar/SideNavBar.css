@@ -1,5 +1,5 @@
 .SideNavBar {
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
     width: 100%;
     margin: 0;
@@ -8,24 +8,26 @@
     align-items: flex-start;
     justify-content: center;
     background-color: white;
-    gap: 25px;
-    padding: 25px;
 }
 
 .SideNavBar__button {
+    height: calc(100% / 5);
     border: none;
+    border-radius: 20px;
+    width: 100%;
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
     text-decoration: none;
     color: var(--font-black);
     transition: 0.15s ease-in-out;
+    padding: 30px;
 }
 
 .SideNavBar__button:hover {
-    color: gray;
+    color: var(--font-white);
+    background-color: gray;
 }
 
 .SideNavBar__icon {

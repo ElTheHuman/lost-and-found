@@ -4,3 +4,4 @@ export { default as CurrentLocation } from './CurrentLocation/CurrentLocation.js
 export { default as LocationSuggestion } from './LocationSuggestion/LocationSuggestion.jsx'
 export { default as Footer } from './Footer/Footer.jsx'
 export { default as SideNavBar } from './SideNavBar/SideNavBar.jsx'
+export { default as LongTimeLocation } from './LongTimeLocation/LongTimeLocation.jsx'

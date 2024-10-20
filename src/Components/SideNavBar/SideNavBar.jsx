@@ -20,7 +20,7 @@ const SideNavBar = () => {
                 <span className="SideNavBar__icon"><FaClipboardUser /></span>
                 <span className="SideNavBar__text">Klaim Kepemilikan</span>
             </Link>
-            <Link className="SideNavBar__button"  to={'/'}>
+            <Link className="SideNavBar__button"  to={'/bid'}>
                 <span className="SideNavBar__icon"><FaChartLine /></span>
                 <span className="SideNavBar__text">Lelang</span>
             </Link>

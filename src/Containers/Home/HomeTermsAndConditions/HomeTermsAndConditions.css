@@ -20,7 +20,7 @@
 .HomeTermsAndConditions__content {
     border-radius: 20px;
     width: inherit;
-    height: 400px;
+    padding: 50px;
     background: linear-gradient(90deg, #1D5C63, #52796F);
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .HomeTermsAndConditions__tnc-list {
-    width: 80%;
+    width: 90%;
     font-size: 1.2rem;  
     font-weight: 500;
     color: white;

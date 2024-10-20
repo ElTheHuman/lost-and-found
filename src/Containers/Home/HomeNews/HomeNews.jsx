@@ -78,7 +78,7 @@ const HomeNews = () => {
                         </div>
                         <hr className="HomeNews__header--separator"/>
                         <div className="HomeNews__side-content">
-                            <p className="HomeNews__content-title">Telah Hilang Kartu Mahasiswa</p>
+                            <p className="HomeNews__content-title">Telah Hilang Dompet Beserta Isinya</p>
                             <a href="#" className="HomeNews__detail">Lihat Detail</a>
                         </div>
                         <div className="HomeNews__time-container">
@@ -98,7 +98,7 @@ const HomeNews = () => {
                         </div>
                         <hr className="HomeNews__header--separator"/>
                         <div className="HomeNews__side-content">
-                            <p className="HomeNews__content-title">Telah Hilang Kartu Mahasiswa</p>
+                            <p className="HomeNews__content-title">Telah Hilang Charger Laptop Asus</p>
                             <a href="#" className="HomeNews__detail">Lihat Detail</a>
                         </div>
                         <div className="HomeNews__time-container">

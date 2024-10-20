@@ -16,6 +16,9 @@ const Header = () => {
                     <Link className="Header__text">Klaim Kepemilikan</Link>
                 </button>
                 <button className="Header__button">
+                    <Link to={'/bid'} className="Header__text">Lelang</Link>
+                </button>
+                <button className="Header__button">
                     <Link className="Header__text">Profil Akun</Link>
                 </button>
             </div>
