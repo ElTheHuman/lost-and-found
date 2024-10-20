@@ -1,0 +1,126 @@
+.BidRecommendation {
+    width: clamp(0px, 95vw, 1900px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.BidRecommendation__header {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    user-select: none;
+}
+
+.BidRecommendation__title {
+    align-self: flex-start;
+    color: #354F52;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.BidRecommendation__show-all--text {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #52796F;
+    transition: 0.15s ease-in-out;
+}
+
+.BidRecommendation__show-all--text:hover {
+    color: #1D5C63;
+}
+
+.BidRecommendation__content {
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 450px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.BidRecommendation__item {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 20px;
+    width: 320px;
+    cursor: pointer;
+}
+
+.BidRecommendation__image--container {
+    width: 300px;
+    height: 300px;
+}
+
+.BidRecommendation__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.BidRecommendation__content--title {
+    align-self: flex-start;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--font-black);
+}
+
+.BidRecommendation__subcontent--container {
+    width: 95%;
+}
+
+.BidRecommendation__subtitle {
+    color: #878888;
+    font-size: 0.9rem;
+}
+
+.BidRecommendation__subcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.BidRecommendation__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2B85C9;
+}
+
+.BidRecommendation__time--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.BidRecommendation__time-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-black);
+}
+
+.BidRecommendation__time-text--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: transparent;
+    background: linear-gradient(90deg, #1D5C63, #52796F);
+    background-clip: text;
+    font-weight: 500;
+}

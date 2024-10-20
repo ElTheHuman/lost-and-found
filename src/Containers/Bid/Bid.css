@@ -1,0 +1,17 @@
+.Bid {
+    width: 100%;
+    margin: 0;
+}
+
+.Bid__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    gap: 80px;
+}
+
+.Bid__banner-container {
+    width: inherit;
+    margin-bottom: 320px;
+}

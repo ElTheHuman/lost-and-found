@@ -1,12 +1,18 @@
 import React from "react";
 import './HomeFoundUpdate.css';
+import { Link } from "react-router-dom";
 
 const HomeFoundUpdate = () => {
 
     return (
         <div className="HomeFoundUpdate--container">
-            <div className="HomeFoundUpdate__title">
-                Found Update
+            <div className="HomeFoundUpdate__header">
+                <div className="HomeFoundUpdate__title">
+                    Found Update
+                </div>
+                <div className="HomeFoundUpdate__show-all">
+                    <Link to={"/lost-news"} className="HomeFoundUpdate__show-all--text">Lihat Semua</Link>
+                </div>
             </div>
             <div className="HomeFoundUpdate__content">
                 <div className="HomeFoundUpdate__item">

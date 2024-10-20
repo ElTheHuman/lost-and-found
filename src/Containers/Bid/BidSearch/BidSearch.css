@@ -8,6 +8,7 @@
     justify-content: space-around;
     border-radius: 20px;
     gap: 2vw;
+    box-shadow: 0 20px 20px 0 #00000026;
 }
 
 .BidSearch__time-location--container {
@@ -72,11 +73,20 @@
     justify-content: center;
     position: relative;
     font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: 0.15s ease-in-out;
+    height: 35px;
+    width: 35px;
+}
+
+.BidSearch__chat-container:hover {
+    background-color: lightgray;
 }
 
 .BidSearch__chat-notification {
-    top: -3px;
-    right: -3px;
+    top: 3px;
+    right: 3px;
 }
 
 .BidSearch__bell-container {
@@ -84,10 +94,19 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: 0.15s ease-in-out;
+    height: 35px;
+    width: 35px;
+}
+
+.BidSearch__bell-container:hover {
+    background-color: lightgray;
 }
 
 .BidSearch__bell-notification {
-    top: -1px;
-    right: -1px;
+    top: 5px;
+    right: 5px;
 }
