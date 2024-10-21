@@ -1,3 +1,4 @@
+export { default as SmallDeviceWarning } from './Warning/SmallDeviceWarning/SmallDeviceWarning.jsx'
 export { default as Header } from './Header/Header.jsx'
 export { default as ShortTimeLocation } from './ShortTimeLocation/ShortTimeLocation.jsx'
 export { default as CurrentLocation } from './CurrentLocation/CurrentLocation.jsx'

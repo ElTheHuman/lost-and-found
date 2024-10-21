@@ -1,0 +1,17 @@
+.SmallDeviceWarning {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.SmallDeviceWarning__text {
+    color: red;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 600;
+}
