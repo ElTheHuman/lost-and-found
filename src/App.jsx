@@ -4,6 +4,7 @@ import './App.css'
 import { Bid, Home } from './Containers'
 import LostNews from './Containers/LostNews/LostNews'
 import { SmallDeviceWarning } from './Components'
+import BidProductPage from './Containers/BidProductPage/BidProductPage'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/' exact element={ <Home /> } />
           <Route path='/lost-news' element={ <LostNews /> } />
           <Route path='/bid' element={ <Bid /> } />
+          <Route path='/dummy-product-page' element={ <BidProductPage children={null}/> } />
         </Routes>
       }
     </>

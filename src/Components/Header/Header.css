@@ -1,5 +1,6 @@
 .Header {
     background-color: transparent;
+    user-select: none;
     margin: 0;
 }
 

@@ -1,5 +1,5 @@
 .SideNavBar {
-    height: 350px;
+    height: 300px;
     border-radius: 20px;
     width: 100%;
     margin: 0;
@@ -22,7 +22,7 @@
     text-decoration: none;
     color: var(--font-black);
     transition: 0.15s ease-in-out;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 .SideNavBar__button:hover {

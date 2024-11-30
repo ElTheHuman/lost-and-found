@@ -16,7 +16,7 @@ const BidRecommendation = () => {
                 </div>
             </div>
             <div className="BidRecommendation__content">
-                <div className="BidRecommendation__item">
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -40,8 +40,8 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="BidRecommendation__item">
+                </Link>
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -65,8 +65,8 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="BidRecommendation__item">
+                </Link>
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -90,8 +90,8 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="BidRecommendation__item">
+                </Link>
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -115,8 +115,8 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="BidRecommendation__item">
+                </Link>
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -140,8 +140,8 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="BidRecommendation__item">
+                </Link>
+                <Link className="BidRecommendation__item" to={'/dummy-product-page'}>
                     <div className="BidRecommendation__image--container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVA-nxbxZZ4w83SRxTAjkS7m1rZTU6X3pCQ&s" alt=""  className="BidRecommendation__image"/>
                     </div>
@@ -165,7 +165,7 @@ const BidRecommendation = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
         </div>
     )

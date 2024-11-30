@@ -1,0 +1,47 @@
+.BidProductPageSidebar {
+    width: 360px;
+    height: 100%;
+    border-right: 1px solid #CDC9C9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.BidProductPageSidebar__content {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.BidProductPageSidebar__back-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #52796F;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 20px 0 0 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.BidProductPageSidebar__back-button:hover {
+    transition: 0.15s color ease-in-out;
+    color: #1D5C63;
+}
+
+.BidProductPageSidebar__footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
