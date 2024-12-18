@@ -1,0 +1,93 @@
+.BidProductPageMainContent {
+    width: 65%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.BidProductPageMainContent__product-image {
+    margin: 25px 0;
+    width: clamp(300px, 80%, 1000px);
+    height: clamp(180px, 60%, 500px);
+    border-radius: 20px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.BidProductPageMainContent__content--container {
+    width: 100%;
+}
+
+.BidProductPageMainContent__header {
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.BidProductPageMainContent__product-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.BidProductPageMainContent__title {
+    font-family: DM Sans;
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: #404040;
+}
+
+.BidProductPageMainContent__product-status {
+    font-weight: 600;
+    color: #878888;
+}
+
+.BidProductPageMainContent__product-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.BidProductPageMainContent__author-image--container {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.BidProductPageMainContent__author-image {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.BidProductPageMainContent__author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.BidProductPageMainContent__posted-by {
+    color: #878888;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: DM Sans;
+}
+
+.BidProductPageMainContent__author-name {
+    color: #404040;
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-family: DM Sans;
+}
