@@ -5,8 +5,9 @@ const BidProductPageMainContent = ({item}) => {
     return(
         <div className="BidProductPageMainContent">
             <div className="BidProductPageMainContent__product-image">
-                {/* <img src="" alt="" /> */}
-                Product Image
+                <div className="BidProductPageMainContent__product-image--container">
+                    <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//105/MTA-56423958/oem_oem_full01.jpg" alt="" />
+                </div>
             </div>
             <div className="BidProductPageMainContent__content--container">
                 <div className="BidProductPageMainContent__header">
@@ -22,6 +23,49 @@ const BidProductPageMainContent = ({item}) => {
                             <p className="BidProductPageMainContent__posted-by">Diposting oleh</p>
                             <p className="BidProductPageMainContent__author-name">Staff</p>
                         </div>
+                    </div>
+                </div>
+                <div className="BidProductPageMainContent__specifications">
+                    <p className="BidProductPageMainContent__specifications-header">Spesifikasi:</p>
+                    <div className="BidProductPageMainContent__specifications-content">
+                        <table className="BidProductPageMainContent__table">
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Jenis Produk</td>
+                                <td className="BidProductPageMainContent__specifications-key">Perkakas & Otomotif</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Tipe Produk</td>
+                                <td className="BidProductPageMainContent__specifications-key">Helm</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Merk</td>
+                                <td className="BidProductPageMainContent__specifications-key">KYT Kyoto</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Ukuran</td>
+                                <td className="BidProductPageMainContent__specifications-key">L</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Warna</td>
+                                <td className="BidProductPageMainContent__specifications-key">Putih</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Kondisi Fisik</td>
+                                <td className="BidProductPageMainContent__specifications-key">Lecet Pemakaian di visor dan shell</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Lokasi Terakhir</td>
+                                <td className="BidProductPageMainContent__specifications-key">Parkiran outdoor motor</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Tanggal terbit berita</td>
+                                <td className="BidProductPageMainContent__specifications-key">15 September 2024 - 10:10</td>
+                            </tr>
+                            <tr className="BidProductPageMainContent__row">
+                                <td className="BidProductPageMainContent__specifications-label">Tanggal terbit Lelang</td>
+                                <td className="BidProductPageMainContent__specifications-key">15 Oktober 2024 - 10:10</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
